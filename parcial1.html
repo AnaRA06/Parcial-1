@@ -13,6 +13,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.3.2/css/flag-icons.min.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
   </head>
   <body class="bg-white text-dark pt-1"> 
     <header class="bg-white border-bottom py-2 d-none d-md-block">
@@ -63,7 +66,9 @@
 
     <nav class="navbar navbar-expand-md navbar-dark sticky-top shadow-sm py-1 bg-danger">
       <div class="container">
-        <a class="navbar-brand font-weight-bold d-md-none text-white mr-3 h6" href="#">M</a>
+        <a class="navbar-brand d-md-none mr-3 p-0" href="#">
+          <img src="logo_marca_m.png" width="28" height="28" alt="MARCA">
+        </a>
 
         <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navbarMarcaMain" aria-controls="navbarMarcaMain" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -234,9 +239,9 @@
                   <img src="Champions.jpg"
                       class="card-img object-fit-cover h-100 rounded-0"
                       alt="Champions League">
-                  <span class="position-absolute badge badge-primary font-weight-bold px-2 py-1 top-left">
+                  <header class="position-absolute badge badge-primary font-weight-bold px-2 py-1 top-left rounded-0">
                       CHAMPIONS
-                  </span>
+                  </header>
                   <div class="card-img-overlay d-flex flex-column justify-content-end p-3 bg-gradient">
                       <h6 class="card-text text-light mb-1">
                           Descubre a los ocho grandes favoritos
@@ -260,106 +265,111 @@
           </div>
 
           <div class="col-12 col-lg-4 d-flex flex-column">
-              <div class="flex-fill">
-                  <div class="row no-gutters align-items-center w-100 ">
-                      <div class="col-5 pr-2 h-100">
-                          <img src="noticia_huelgaS.jpg"
-                              class="img-fluid rounded h-100 w-100 object-fit-cover"
-                              alt="Amenaza de huelga">
-                      </div>
-                      <div class="col-7 justify-content-betwen">
-                          <span class="font-weight-bold d-block text-uppercase text-primary">
-                              LALIGA SANTANDER
-                          </span>
-                          <h6 class="font-weight-bold mb-1">
-                              <a href="#" class="text-dark text-decoration-none">
-                                  Amenaza de huelga
-                              </a>
-                          </h6>
-                          <div class="d-flex justify-content-between text-muted">
-                              <span>
-                                  A. MOGOLLO Y E. BORDA
-                              </span>
-                              <span class="text-danger small">
-                                  <i class="fas fa-comment small mr-1 text-secondary"></i>
-                                  306
-                              </span>
-                          </div>                  
-                      </div>                    
-                  </div>
-                  <hr class="bg-dark border-dark">   
-              </div>
-              
-              <div class="pt-1 flex-fill mt-1">
-                  <div class="row no-gutters align-items-center w-100">
-                      <div class="col-5 pr-2 h-100">
-                          <img src="noticia_filipe.jpg"
-                              class="img-fluid rounded h-100 w-100 object-fit-cover"
-                              alt="Fichajes">
-                      </div>
-                      <div class="col-7 justify-content-betwen">
-                          <span class="font-weight-bold d-block text-uppercase text-primary">
-                              FICHAJES
-                          </span>
-                          <h6 class="font-weight-bold mb-1">
-                              <a href="#" class="text-dark text-decoration-none">
-                                  Mercado: el 'recambio' de Filipe Luis puede llegar de Alemania
-                              </a>
-                          </h6>
-                          <div class="text-right text-muted">
-                              <span class="text-danger small">
-                                  <i class="fas fa-comment small mr-1 text-secondary"></i>
-                                  92
-                              </span>
-                          </div>
-                      </div>
-                  </div>
-                  <hr class="bg-dark border-dark">   
-              </div>
+            <div class="flex-fill">
+              <div class="row no-gutters align-items-center w-100">
+                <div class="col-5 pr-2 h-100 position-relative d-flex justify-content-center align-items-center">
+                  <img src="noticia_huelgaS.jpg"
+                      class="img-fluid rounded h-100 w-100 object-fit-cover"
+                      alt="Amenaza de huelga">
+   
+                  <span class="bi bi-play-circle position-absolute text-white display-4"></span>
+                </div>
 
-              <div class="flex-fill mt-2">
-                  <div class="row no-gutters align-items-center w-100">
-                      <div class="col-5 pr-2 h-100">
-                          <img src="noticia_portero.jpg"
-                              class="img-fluid rounded h-100 w-100 object-fit-cover"
-                              alt="Portero titular">
-                      </div>
-                      <div class="col-7 justify-content-betwen">
-                          <span class="font-weight-bold d-block text-uppercase text-primary">
-                              REAL MADRID
-                          </span>
-                          <h6 class="font-weight-bold mb-1">
-                              <a href="#" class="text-dark text-decoration-none">
-                                  Champions y Liga para el portero titular
-                              </a>
-                          </h6>
-                          <div class="d-flex justify-content-between text-muted">
-                              <span>
-                                  JOSÉ FÉLIX DÍAZ
-                              </span>
-                              <span class="text-danger small">
-                                  <i class="fas fa-comment mr-1 small text-secondary"></i>
-                                  206
-                              </span>
-                          </div>
-                      </div>
-                  </div>
+                <div class="col-7 justify-content-between">
+                  <span class="font-weight-bold d-block text-uppercase text-primary">
+                    LALIGA SANTANDER
+                  </span>
+                  <h6 class="font-weight-bold mb-1">
+                    <a href="#" class="text-dark text-decoration-none">
+                      Amenaza de huelga
+                    </a>
+                  </h6>
+                  <div class="d-flex justify-content-between text-muted">
+                    <span>
+                      A. MOGOLLO Y E. BORDA
+                    </span>
+                    <span class="text-danger small">
+                      <i class="fas fa-comment small mr-1 text-secondary"></i>
+                      306
+                    </span>
+                  </div>                  
+                </div>                    
               </div>
-          </div>
+              <hr class="bg-dark border-dark">   
+            </div>
+            
+            <div class="pt-1 flex-fill mt-1">
+              <div class="row no-gutters align-items-center w-100">
+                <div class="col-5 pr-2 h-100">
+                  <img src="noticia_filipe.jpg"
+                      class="img-fluid rounded h-100 w-100 object-fit-cover"
+                      alt="Fichajes">
+                </div>
+                <div class="col-7 justify-content-between">
+                  <span class="font-weight-bold d-block text-uppercase text-primary">
+                    FICHAJES
+                  </span>
+                  <h6 class="font-weight-bold mb-1">
+                    <a href="#" class="text-dark text-decoration-none">
+                      Mercado: el 'recambio' de Filipe Luis puede llegar de Alemania
+                    </a>
+                  </h6>
+                  <div class="text-right text-muted">
+                    <span class="text-danger small">
+                      <i class="fas fa-comment small mr-1 text-secondary"></i>
+                      92
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <hr class="bg-dark border-dark">   
+            </div>
+
+            <div class="flex-fill mt-2">
+              <div class="row no-gutters align-items-center w-100">
+                <div class="col-5 pr-2 h-100">
+                  <img src="noticia_portero.jpg"
+                      class="img-fluid rounded h-100 w-100 object-fit-cover"
+                      alt="Portero titular">
+                </div>
+                <div class="col-7 justify-content-between">
+                  <span class="font-weight-bold d-block text-uppercase text-primary">
+                    REAL MADRID
+                  </span>
+                  <h6 class="font-weight-bold mb-1">
+                    <a href="#" class="text-dark text-decoration-none">
+                      Champions y Liga para el portero titular
+                    </a>
+                  </h6>
+                  <div class="d-flex justify-content-between text-muted">
+                    <span>
+                      JOSÉ FÉLIX DÍAZ
+                    </span>
+                    <span class="text-danger small">
+                      <i class="fas fa-comment mr-1 small text-secondary"></i>
+                      206
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
       </div>
 
       <br>
       <br>
+      <br>
+      <br>
 
-      <div class="row">
+      <div class="row mt-3">
         <div class="col-12 col-md-4 col-sm-6">
           <div class="card border-0 h-100 position-relative">   
             
               <img src="noticia_felix.jpeg" class="img-fluid rounded-0 w-100 h-180 object-fit-cover" alt="Felix Orode">
               
-              <span class="position-absolute badge badge-primary font-weight-bold ml-2 mt-1 px-1 py-1 top-left">
-                FÚBOL
-              </span>          
+              <header class="position-absolute badge badge-primary font-weight-bold ml-2 mt-1 px-1 py-1 top-left rounded-0">
+                  FÚTBOL
+              </header>      
 
             <h6 class="font-weight-bold">
               <a href="#" class="text-dark text-decoration-none">
@@ -378,9 +388,9 @@
 
             <img src="noticia_cristiano.jpg" class="img-fluid rounded-0 h-180 object-fit-cover" alt="Cristiano y Cuadrado" >
             
-            <span class="position-absolute badge badge-primary font-weight-bold m-1 px-1 py-1 top-left">
+            <header class="position-absolute badge badge-primary font-weight-bold m-1 px-1 py-1 top-left rounded-0">
                 SERIE A
-            </span>
+            </header>
             
             <h6 class="font-weight-bold mb-1">
               <a href="#" class="text-dark text-decoration-none">Cristiano habla sobre Cuadrado y la cesión del número 7</a>
@@ -397,9 +407,9 @@
           
             <img src="noticia_cruzazul.jpg" class="img-fluid rounded-0 h-180 object-fit-cover" alt="Cruz Azul">
           
-            <span class="position-absolute badge badge-primary font-weight-bold m-1 px-1 py-1 top-left">
+            <header class="position-absolute badge badge-primary font-weight-bold m-1 px-1 py-1 top-left rounded-0">
                 MÉXICO
-            </span>
+            </header>
 
             <h6 class="font-weight-bold mb-1">
               <a href="#" class="text-dark text-decoration-none">La joya celeste que hace soñar a Cruz Azul</a>
@@ -427,13 +437,14 @@
       </div>
 
       <div class="row">     
-        <div class="col-12 col-md-4 sm-6">
+        <!-- Columna 1: Izquierda (12 en xs, 6 en sm, 4 en md) -->
+        <div class="col-12 col-sm-6 col-md-4">
           <div class="row no-gutters align-items-center">
             <div class="col-5 pr-2">
               <img src="noticia_afe.jpg" class="img-fluid rounded w-100" alt="Reunión AFE">
             </div>
             <div class="col-7">
-              <span class="font-weight-bold d-block text-uppercase text-primary small">LALIGA SANTANDER</span>
+              <header class="font-weight-bold d-block text-uppercase text-primary small">LALIGA SANTANDER</header>
               <h6 class="font-weight-bold mb-1">
                 <a href="#" class="text-dark text-decoration-none">¿Qué equipos y qué jugadores estuvieron en la reunión de la AFE?</a>
               </h6>
@@ -445,13 +456,14 @@
           <hr class="bg-dark border-dark">
         </div>
 
-        <div class="col-12 col-md-4 sm-6">
+        <!-- Columna 2: Derecha (12 en xs, 6 en sm sin separación, 4 en md desplaza 4 hacia la derecha) -->
+        <div class="col-12 col-sm-6 col-md-4 offset-md-4">
           <div class="row no-gutters align-items-center">
             <div class="col-5 pr-2">
               <img src="noticia_sevilla.jpg" class="img-fluid rounded w-100" alt="Sevilla FC">
             </div>
             <div class="col-7">
-              <span class="font-weight-bold d-block text-primary small">SEVILLA FC</span>
+              <header class="font-weight-bold d-block text-primary small">SEVILLA FC</header>
               <h6 class="font-weight-bold mb-1">
                 <a href="#" class="text-dark text-decoration-none">Draxler y Martial, nombres 'top' en la recta final del mercado</a>
               </h6>
@@ -463,9 +475,9 @@
           </div>
           <hr class="bg-dark border-dark">
         </div>
-      </div>
+    </div>
 
-      <div class="row">       
+      <div class="row mt-2">       
         <div class="col-12 col-md-4 mb-3">
           <div class="card border-0 h-100 position-relative">
             
@@ -566,12 +578,43 @@
       </div>
     </footer>
 
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
-            <div class="col-12 border-top border-secondary pt-3 small text-center font-weight-bold">
-                <p class="mb-0">&copy; Agosto 2018 Unidad Editorial Información Deportiva, S.L.U. Todos los derechos reservados.</p>
-            </div>
-        </div> 
+          <div class="col-12 border-top border-secondary pt-3 small text-center font-weight-bold">
+            <p class="mb-0">&copy; Agosto 2018 Unidad Editorial Información Deportiva, S.L.U. Todos los derechos reservados.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 text-center">
+            <a href="#" class="text-dark mr-3 small">Términos y condiciones de uso</a>
+            <a href="#" class="text-dark mr-3 small">Política de privacidad</a>
+            <a href="#" class="text-dark mr-3 small">Política de cookies</a>
+            <a href="#" class="text-dark mr-3 small">PCertificado por OJD</a>
+            <a href="#" class="text-dark mr-3 small">Contacto</a>
+            <a href="#" class="text-dark mr-3 small">Publicidad</a>
+            <a href="#" class="text-dark mr-3 small">Ayuda</a>
+            <a href="#" class="text-dark mr-3 small">Nuestro equipo</a>
+          </div>   
+        </div>
+        <div class="row">
+          <div class="col-12 text-center">
+            <a href="#" class="text-dark mr-3 small">Venta de contenidos</a>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-12 text-center mt-4 mb-0">
+            <p class="font-weight-bold small">Síguenos en</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 text-center mt-0">
+            <img src="facebook.png" width="32" height="32">
+            <img src="twitter.png" width="32" height="32">
+            <img src="google.png" width="32" height="32">
+            <img src="wifi.jpg" width="32" height="32">
+          </div>
+        </div>
       </div>
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
